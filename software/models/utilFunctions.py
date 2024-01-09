@@ -69,7 +69,6 @@ def wavread(filename):
     x = np.float32(x) / norm_fact[x.dtype.name]
     return fs, x
 
-
 def wavplay(filename):
     """
 	Play a wav audio file from system using OS calls
